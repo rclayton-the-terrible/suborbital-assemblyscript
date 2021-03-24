@@ -1,0 +1,22 @@
+{
+  "name": "ascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-wasi-unstable-preview1 run.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "asbuild": "npm run build",
+    "build": "asb"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "asbuild": "^0.0.11",
+    "assemblyscript": "^0.18.16",
+    "wasi": "^0.0.6"
+  },
+  "dependencies": {
+    "@assemblyscript/loader": "^0.18.16"
+  }
+}
